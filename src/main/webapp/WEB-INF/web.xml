@@ -6,4 +6,13 @@
          version="3.1"
          metadata-complete="false">
 
+    <servlet>
+        <servlet-name>helloWorld</servlet-name>
+        <servlet-class>com.yanov.goit.HelloWorldServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>helloWorld</servlet-name>
+        <url-pattern>/hello/*</url-pattern>
+    </servlet-mapping>
 </web-app>
